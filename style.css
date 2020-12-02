@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(35, 53, 68);
+}
+
+h1{
+    color: white;
+}
+
+li{
+    list-style: lower-latin;
+}
+
+button{
+    font-family: 'Victor Mono';
+    width: fit-content;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(57, 117, 170);
+}
+
+.list, .simulatedTime{
+    margin: 25px;
+    color: white;
+}
+.timer{
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+    align-items: baseline;
+}
+.time{
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 14em;
+    align-items: baseline;
+}
+.status{
+    color:white;
+}
